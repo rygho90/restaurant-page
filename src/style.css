@@ -43,6 +43,10 @@ h3 {
     line-height: 1.2;
 }
 
+h2 {
+    margin-bottom: 2rem;
+}
+
 a {
     text-decoration: none;
     color: var(--font-color);
@@ -104,7 +108,8 @@ button {
     transform: translateY(-10%);
 }
 
-.main {
+.main,
+.testimonials {
     max-width: 700px;
     padding: 4rem;
     margin: 6rem auto;
@@ -118,7 +123,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 525px;
+    height: 325px;
     width: 618px;
     animation: fadeIn 1.5s;
 }
@@ -132,6 +137,26 @@ button {
     margin-top: 3rem;
     margin-bottom: 3rem;
     opacity: 90%
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-around;
+}
+
+.quote {
+    width: 209px;
+    height: 150px;
+    animation: fadeIn 1.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+blockquote {
+    font-size: 2rem;
+    font-style: italic;
 }
 
 footer {
