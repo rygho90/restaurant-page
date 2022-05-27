@@ -1,4 +1,11 @@
 const loadHomeTab = function() {
+    const homeButton = document.querySelector(".home-button");
+    const menuButton = document.querySelector(".menu-button");
+    const contactButton = document.querySelector(".contact-button");
+    homeButton.classList.add("active");
+    menuButton.classList.remove("active");
+    contactButton.classList.remove("active");
+
     const content = document.querySelector(".content");
 
     const homePage = document.createElement("div");

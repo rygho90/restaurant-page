@@ -1,4 +1,10 @@
 const loadMenuTab = function() {
+    const homeButton = document.querySelector(".home-button");
+    const menuButton = document.querySelector(".menu-button");
+    const contactButton = document.querySelector(".contact-button");
+    homeButton.classList.remove("active");
+    menuButton.classList.add("active");
+    contactButton.classList.remove("active");
 
     const content = document.querySelector(".content");
 

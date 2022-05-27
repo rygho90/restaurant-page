@@ -1,4 +1,11 @@
 const loadContactTab = function() {
+    const homeButton = document.querySelector(".home-button");
+    const menuButton = document.querySelector(".menu-button");
+    const contactButton = document.querySelector(".contact-button");
+    homeButton.classList.remove("active");
+    menuButton.classList.remove("active");
+    contactButton.classList.add("active");
+    
     const content = document.querySelector(".content");
 
     const contactPage = document.createElement("div");

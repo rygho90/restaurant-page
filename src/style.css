@@ -20,6 +20,7 @@
 html {
     font-size: 50%;
     line-height: 1.6;
+    overflow-y: scroll;
 }
 
 body {
@@ -225,4 +226,20 @@ footer {
     width: 100%;
     padding: 1rem;
     background-color: var(--background-dark);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #222;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #444;
 }

@@ -15,9 +15,12 @@ const loadPage = function() {
     menuButton.textContent = "Menu";
     contactButton.textContent = "Contact";
     homeButton.classList.add("button-nav");
-    homeButton.classList.add("active");
     menuButton.classList.add("button-nav");
     contactButton.classList.add("button-nav");
+    homeButton.classList.add("home-button");
+    menuButton.classList.add("menu-button");
+    contactButton.classList.add("contact-button");
+
     
     nav.append(homeButton);
     nav.append(menuButton);
