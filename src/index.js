@@ -2,9 +2,10 @@ import './style.css';
 import loadPage from './load.js';
 import loadHomeTab from './home.js';
 import loadMenuTab from './menu.js';
+import loadContactTab from './contact.js';
 
 loadPage();
-loadMenuTab();
+loadContactTab();
 
 /* Test Code. Removing the last child removes the current "tab"
 
