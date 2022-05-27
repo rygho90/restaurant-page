@@ -1,5 +1,3 @@
-import loadHomeTab from './home.js';
-
 const loadPage = function() {
     const content = document.querySelector(".content");
     const header = document.createElement("div");
@@ -36,9 +34,6 @@ const loadPage = function() {
     footerP.textContent = "Copyright © 2022 Ryan Holland";
     footer.append(footerP);
     content.append(footer);
-    
-    /* Home Tab */
-    loadHomeTab();
 }
 
 export default loadPage;
