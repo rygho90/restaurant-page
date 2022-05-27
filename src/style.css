@@ -26,7 +26,7 @@ body {
     font-family: 'Montserrat', cursive, sans-serif;
     font-size: 1.6rem;
     color: var(--font-color);
-    background-image: url(kitchcrop.jpg);
+    background-image: url(images/kitchcrop.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -157,6 +157,43 @@ button {
 blockquote {
     font-size: 2rem;
     font-style: italic;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 618px;
+    animation: fadeIn 1.5s;
+}
+
+.menu-item {
+    display: flex;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.menu h2 {
+    font-size: 4rem;
+}
+
+.item-side img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.item-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item-side p {
+    padding: 1rem;
 }
 
 footer {
